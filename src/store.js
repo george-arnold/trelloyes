@@ -1,4 +1,4 @@
-const STORE = {
+export default {
   lists: [
     {
       id: '1',
@@ -37,5 +37,3 @@ const STORE = {
     'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
   },
 }
-
-//This object can be imported into your index.js and passed to your App as its store prop.
